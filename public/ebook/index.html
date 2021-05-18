@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 9.3.3.27707 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>Leaner Guide</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/viewer.js"></script>
+	
+	
+	<script>
+		if (document.addEventListener) // IE9+
+		{
+			var book = "eNp1VOFumzAQfhULqdqfFDVpmqT5Z8C0rBSiQNpFU4Uc4ias1Ea2acRKpT3NHmxPsiPQZJtWfoD57vzdd747vxo60zkzpobPKGcSXZXZmhk9o6AbFmXfmTKmX18NBStYXFxemOeDs8PT702GffNy8NAzJOWbxqXfG/Yf3gBQNNdA61pnQ8cifdsaOcPxsI+HeDSxXIxdPD4fuxcQakuVL1Ka3zGpMsGNqZYl28MzqtROyLUxfaS5AizrT8D+ahAnwdFNMsNRdB/OncTxsB9eJV5wh33POeI+togPKuItQ0VHhhjXTLI12lGFMp4KKVmqTTTLGVUMaVkhuqEZN0HaB3HeaUnDdCTWAomCcaS3mUIrIZ6mH1PMfGyT69B3yByIDonu/W0c2Ht+m/KU5S3ohxh89x8vOErwBV1nfPPrx8/WLbwBEF49Y2Yl2HESKwxvbvH8JrkmuA2G180OZIHAZyqf1H98Y/IlBs/7LWRTifKTZEiyfaAe0rSADNlhP1qVWgveZL//bWxpCYfKNWq6yOz4r8KDaLoRLfgeMEpibIHhH00OXkaHTWtadfB1uJgf8W0X4NYLFjE54s9tCRtLGMTXLR6B4TPlZu2ylVnfUmnWuJDNqqo/l5zBK69qXG7MOmKFNusQWqMOxItZOyzt+IIwCRex7wUE2AIBJ7LKGRKPKBXQEFx3MjufLjX7L9sMX5GD0hmcEjrZQ8Hi1iLzk9ZpTmwSxP6yqQ1xwPFbqTTiYteaFwG+wx6Q+CSxcBBAd3R1W4oSpZSjl4zt9o2okOB5hXaZ3iKK7tkKKSZfmDQ/ZvJin3QVQUW5yjO1bWYGGESpIdnHPOMwVDmtVjR9QqosCiF1y7ckUUzmUL1DihVTMCpQQuMN7hYpNIycK8WzLYoKuuow4I/ww2QhM95cHmN3MHTHE+fUHdiTU3t4NjodjfD5qTOxBoQQCw8mlxAxU82GzQy0eHDIG0n1H/eIhNBCskhTzVrs7Tdi042k";
+
+			document.addEventListener("DOMContentLoaded", function() {
+				PdfViewer.checkMobileIntegration(book);
+
+				var viewerInitCallback = function(viewer) {
+					
+				};
+
+				var startupApplication = function(initViewerState) {
+					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+				};
+
+				(function(startupFunc) {
+					if (startupFunc)
+					{
+						startupFunc(startupApplication);
+					}
+					else
+					{
+						startupApplication();
+					}
+				})();
+			});
+		}
+		else
+		{
+			location.replace("data/html5-unsupported.html");
+		}
+	</script>
+</head>
+<body></body>
+</html>
