@@ -4,11 +4,8 @@
 
         <div id="cometchat_embed_synergy_container"></div>
 
-
-
     </div>
 </template>
-
 
 <script>
 

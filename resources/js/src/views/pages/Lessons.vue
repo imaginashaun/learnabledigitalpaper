@@ -13,9 +13,9 @@
                             <div class="vx-col w-1/6">
 
                                 <vs-button color="rgba(0,0,0,0)" @click="$vs.notify({
-        title:'ACTION PROHIBITED: <br>LEARNABLE DEMO LICENSE',
+        title:'ACTION PROHIBITED: <br>DEMO LICENSE',
         time:8000,
-        text:'Deleting and editing lessons is prohibited. Please purchase the full version of Learnable by contacting <a href=\'mailto:sales@itslearnable.co.za\' target=\'_blank\'>sales@itslearnable.co.za</a>',
+        text:'Deleting and editing lessons is prohibited. Please purchase the full version.',
         color:'warning',
         iconPack: 'feather',
         icon:'icon-alert-circle'})" type="filled" icon-pack="feather" size="large" icon="icon-more-vertical" class="ml-1"></vs-button>

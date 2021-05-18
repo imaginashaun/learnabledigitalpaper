@@ -58,7 +58,7 @@
               <div v-if="$route.meta.breadcrumb || $route.meta.pageTitle" class="router-header flex flex-wrap items-center mb-6">
 
                   <vs-alert color="warning" class="mb-4" title="DEMO LICENSE: LIMITED FUNCTIONALITY" closable icon-pack="feather"  :active.sync="showalert" close-icon="icon-x">
-                      Deleting and editing content is limited. Please purchase the full version of Learnable by contacting <a href="mailto:sales@itslearnable.co.za" target="_blank">sales@itslearnable.co.za</a>
+                      Deleting and editing content is limited. Please purchase the full version.
                   </vs-alert>
 
 
