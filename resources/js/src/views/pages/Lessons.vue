@@ -28,14 +28,14 @@
 
                 </div>
 
-                <div class="mt-0 mb-4" v-if="activeUserInfo.level == 2">
+                <div class="mt-0 mb-4">
                 <div class="flex justify-between">
                     <small class="font-semibold">{{learning_path.progress >= 100?'Complete':'Avg. Learner Progress'}}</small>
                     <small :class="learning_path.progress >= 100?'text-success':'text-warning'">{{learning_path.progress>100?"100":learning_path.progress}}%</small>
                 </div>
                 </div>
-                <vs-progress  v-if="activeUserInfo.level == 2" :percent="learning_path.progress" :color="learning_path.progress >= 100?'success':'warning'" class="block mt-1 shadow-md"></vs-progress>
-                <div class="flex justify-between flex-wrap"  v-if="activeUserInfo.level == 2">
+                <vs-progress :percent="learning_path.progress" :color="learning_path.progress >= 100?'success':'warning'" class="block mt-1 shadow-md"></vs-progress>
+                <div class="flex justify-between flex-wrap">
                     <vs-button class="mt-4" type="border" color="#b9b9b9" :to="'/showresults/'+learning_path.id">Show Results</vs-button>
                     <vs-button class="mt-4 mr-0 shadow-lg" color="primary" :to="'/lesson/edit/'+learning_path.id">View Lesson</vs-button>
                 </div>
